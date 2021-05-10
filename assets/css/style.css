@@ -1906,38 +1906,7 @@ color: #222 }
         line-height: 46px;
         margin-top: 0; } }
 
-  .wrapper{
-    overflow: hidden;
-    max-width: 390px;
-    background: #fff;
-    margin-left: 500px;
 
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
-  }
-  .wrapper .title-text{
-    display: flex;
-    width: 200%;
-  }
-  .wrapper .title{
-    width: 50%;
-    font-size: 35px;
-    font-weight: 600;
-    text-align: center;
-    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
-  }
-  .wrapper .slide-controls{
-    position: relative;
-    display: flex;
-    height: 50px;
-    width: 100%;
-    overflow: hidden;
-    margin: 30px 0 10px 0;
-    justify-content: space-between;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
-  }
   .slide-controls .slide{
     height: 100%;
     width: 100%;
@@ -1984,10 +1953,7 @@ color: #222 }
     cursor: default;
     user-select: none;
   }
-  .wrapper .form-container{
-    width: 100%;
-    overflow: hidden;
-  }
+
   .form-container .form-inner{
     display: flex;
     width: 200%;
@@ -2078,12 +2044,69 @@ color: #222 }
                                                           CONTENT css
   =================================================================================================================================*/
 .infohead{
-  margin-left:500px;
-  margin-right:500px;
+  margin-left:0px;
+  margin-right:50px;
+  background-color: #fbe6c2;
+  height:160px;
+  width:5000px;
+  display: grid;
+  place-items: center;           /* --------------THIS NEEDS TO GET FIXED---------------------*/
+
 }
+.infohead .heaad{
+
+}
+
 .kontente{
-  margin-left:100px;
-  margin-right:100px;
+  margin-left: 50px;
+}
+.acc-container {
+  width:90%;
+  margin:30px auto 0 auto;
+  -webkit-border-radius:8px;
+  -moz-border-radius:8px;
+  -o-border-radius:8px;
+  border-radius:8px;
+  overflow:hidden;
+}
+
+.acc-btn {
+  width:100%;
+  margin:0 auto;
+  padding:20px 25px;
+  cursor:pointer;
+  background:#ffd384;       /* COLOUR OF SUB HEADINGS BACKGROUND*/
+  border-bottom:1px solid #fffb14;  /*COLOUR OF BORDER*/
+}
+
+.acc-content {
+  height:0px;
+  width:100%;
+  margin:0 auto;
+  overflow:hidden;
+  background: #fff9b0;   /* BACKGORUND CONTENT COLOUR*/
+}
+
+.acc-content-inner {
+  padding:30px;
+}
+
+.open {
+  height: auto;
+}
+
+h1 {
+  font:700 20px/26px 'Lato', sans-serif;
+  color:black; /*NON SLECETD TEXT HEADING COLOUR*/
+}
+
+p {
+  font:400 16px/24px 'Lato', sans-serif;
+  color: black;     /* text colour*/
+}
+
+.selected {
+  color: red; /*SELETED HEADING COLOUR TEXT*/
 }
 
 
@@ -2094,9 +2117,27 @@ color: #222 }
 
 
 
-/*===========================
-       11.FOOTER css
-===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================================================================================================================================
+                                                               11.FOOTER css
+================================================================================================================================================*/
 .footer-about .text {
   padding-top: 25px;
   font-size: 16px; }
@@ -2452,14 +2493,23 @@ color: #222 }
         color: #ffce8a;
         margin-right: 5px; }
 
-.blog-sidebar-wrapper {
+.blog-sidebar-wrapper1 {
   border: 1px solid #dedede4f; }
-  .blog-sidebar-wrapper .sidebar-title {
+  .blog-sidebar-wrapper1 .sidebar-title {
     padding: 15px 30px;
     border-bottom: 1px solid #dedede4f; }
-    .blog-sidebar-wrapper .sidebar-title .title {
+    .blog-sidebar-wrapper1 .sidebar-title .title {
       font-size: 18px;
       font-weight: 500; }
+
+      .blog-sidebar-wrapper2 {
+        border: 1px solid #dedede4f; }
+        .blog-sidebar-wrapper2 .sidebar-title {
+          padding: 15px 30px;
+          border-bottom: 1px solid #dedede4f; }
+          .blog-sidebar-wrapper2 .sidebar-title .title {
+            font-size: 18px;
+            font-weight: 500; }
 
 .blog-tag .tag-list {
   padding: 20px 30px 30px;
